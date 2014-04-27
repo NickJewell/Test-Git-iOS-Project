@@ -21,6 +21,7 @@
 		01C4C534190DACA5001B906E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C4C516190DACA5001B906E /* UIKit.framework */; };
 		01C4C53C190DACA5001B906E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C4C53A190DACA5001B906E /* InfoPlist.strings */; };
 		01C4C53E190DACA5001B906E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C4C53D190DACA5001B906E /* Git_TestTests.m */; };
+		01C4C549190DAEFD001B906E /* MacJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C4C548190DAEFD001B906E /* MacJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		01C4C539190DACA5001B906E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		01C4C53B190DACA5001B906E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01C4C53D190DACA5001B906E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		01C4C547190DAEFD001B906E /* MacJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacJTest.h; sourceTree = "<group>"; };
+		01C4C548190DAEFD001B906E /* MacJTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacJTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		01C4C506190DACA5001B906E = {
 			isa = PBXGroup;
 			children = (
+				01C4C547190DAEFD001B906E /* MacJTest.h */,
+				01C4C548190DAEFD001B906E /* MacJTest.m */,
 				01C4C518190DACA5001B906E /* Git Test */,
 				01C4C537190DACA5001B906E /* Git TestTests */,
 				01C4C511190DACA5001B906E /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C4C549190DAEFD001B906E /* MacJTest.m in Sources */,
 				01C4C51F190DACA5001B906E /* main.m in Sources */,
 				01C4C529190DACA5001B906E /* MacJViewController.m in Sources */,
 				01C4C523190DACA5001B906E /* MacJAppDelegate.m in Sources */,
